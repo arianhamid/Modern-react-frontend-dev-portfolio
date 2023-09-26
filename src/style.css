@@ -265,24 +265,32 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  
+  background-image: linear-gradient(
+    to bottom,
+    rgba(9, 5, 246, 0.18),
+    rgba(220, 9, 9, 0.16)
+  );
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
 }
-.galaxy {
-background-image: linear-gradient(
-    to bottom left,
-    rgba(9, 5, 246, 0.16),
-    rgba(220, 9, 9, 0.16)
+
+.home-about-section {
+  position: relative;
+  padding-bottom: 70px !important;
+  padding-top: 70px !important;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(220, 9, 9, 0.16),
+    rgba(9, 5, 246, 0.16)
   );
 }
+
 .home-content {
   padding: 9rem 0 2rem !important;
   color: whitesmoke;
   text-align: left;
-  
 }
 
 .heading {
@@ -330,12 +338,6 @@ background-image: linear-gradient(
     padding-top: 2em !important;
     padding-bottom: 2em !important;
   }
-}
-
-.home-about-section {
-  position: relative;
-  padding-bottom: 70px !important;
-  padding-top: 70px !important;
 }
 
 .home-about-description {
