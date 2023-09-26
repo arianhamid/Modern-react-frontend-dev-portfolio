@@ -30,11 +30,8 @@ function Home2() {
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="blue">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="blue">
-                  Django.
-                </b>
+                <b className="blue">Web Technologies and Products </b> and also
+                in areas related to <b className="blue">Django.</b>
               </i>
               <br />
               <br />
@@ -70,7 +67,7 @@ function Home2() {
                   href="https://github.com/arianhamid"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-color  home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
@@ -80,7 +77,7 @@ function Home2() {
                   href="https://twitter.com/arianhamid5"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-color  home-social-icons"
                 >
                   <AiOutlineTwitter />
                 </a>
@@ -90,7 +87,7 @@ function Home2() {
                   href="https://www.linkedin.com/in/arianhamid/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-color  home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
@@ -100,7 +97,7 @@ function Home2() {
                   href="https://www.instagram.com/arianhamid5"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour home-social-icons"
+                  className="icon-color home-social-icons"
                 >
                   <AiFillInstagram />
                 </a>

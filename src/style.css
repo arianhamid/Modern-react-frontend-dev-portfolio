@@ -265,17 +265,19 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: linear-gradient(
-    to bottom left,
-    rgba(9, 5, 246, 0.16),
-    rgba(220, 9, 9, 0.16)
-  );
+  
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
 }
-
+.galaxy {
+background-image: linear-gradient(
+    to bottom left,
+    rgba(9, 5, 246, 0.16),
+    rgba(220, 9, 9, 0.16)
+  );
+}
 .home-content {
   padding: 9rem 0 2rem !important;
   color: whitesmoke;
@@ -407,8 +409,8 @@ button:focus {
   padding-left: 15px;
 }
 
-.icon-colour {
-  color: #220c86 !important;
+.icon-color {
+  color: #18098a !important;
 }
 
 /* --------- */
